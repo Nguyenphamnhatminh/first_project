@@ -1,0 +1,145 @@
+.header{
+    background-color: var(--white-color);
+    width: 100%;
+    height: var(--header-height);
+    position: relative;
+    
+}
+.header__navbar{
+    position: relative; 
+    max-width: 100%;
+    height: 100%;
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: var(--nav-height);
+    padding-right: 124px;
+    padding-left: 31px;
+}
+/* css cho logo */
+.header__container-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.header__container-logo svg{
+    width: 30px;
+    height: 26px;
+}
+.header__container-word{
+    font-size: 1.6rem;
+    margin: 8px 4px;
+
+}
+/* css icon search */
+.header__container-search{
+    list-style: none;
+    height: 36px;
+    width:40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+
+    outline: none;
+   
+}
+/* icon */
+.header__container-input--icon{
+    position: absolute;
+    padding: 0 0 0 16px;
+
+
+}
+.header__container-search-box{
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--white-color);
+    background-color: #F0F1F2;
+    border-radius: 30px;
+    padding:  0 12px;
+    padding: 0 0 0 30px;
+    outline: none;
+}
+/* focus */
+.header__container-search-box:focus{
+    border-color:#ccc;
+}
+
+/* language */
+.header__container-language{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--gray-color);
+}
+
+.header__container-english{
+    font-size: 1.4rem;
+    margin: -2px 4px;
+    
+}
+
+.header__container-language-icon{
+    margin-left: 2px;
+
+}
+/* hover */
+.header__container-language:hover,
+.header__container-language-icon:hover,
+.header__container-language svg:hover{
+    color: #b0aaaa;
+}
+/* 2 biểu tượng */
+.header__container-button{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    cursor: pointer;
+    
+}
+.header__container-button-one {
+   margin: 0 4px;
+}
+/* hover */
+.header__container-button-one svg:hover{
+    color: rgb(66, 66, 123);
+}
+
+/* CONTAINER 2 */
+.header__contain-list{
+    position: absolute;
+    width: 100%;
+    display: inline-flex;
+    height: var(--header-with-search-height);
+    border-top: 1px solid #a4a4a4;
+    padding-left: 65px;
+  
+}
+
+.header__contain-category{
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    width: calc(70% + 100px);
+    align-items: center;
+    height: 100%;
+    list-style-type: none;
+    flex-direction: row;
+    padding: 0px;
+}
+
+.header__contain-category-item{
+    font-size: 1.2rem;
+    
+    
+}
+
+.header__contain-category-item--link{
+    text-decoration: none;
+    color: var(--gray-color);
+}

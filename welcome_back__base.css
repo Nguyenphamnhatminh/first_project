@@ -1,0 +1,32 @@
+:root{
+    --blue-color:#4475F2;
+    --white-color:#fff;
+    --black-color:#444B59;
+    --violet-color:#8c9edc;
+}
+*{
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+    line-height: auto;
+    font-family: Overpass;
+    font-size: 62.5%;
+}
+
+/* nút */
+.btn--small{
+    min-width: 80px;
+    height: 50px;
+    border-radius: 2px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    border: 2px solid var(--blue-color);
+    background-color: var(--white-color);
+}
+
+
+
+
+

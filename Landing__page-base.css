@@ -1,0 +1,17 @@
+:root{
+    --white-color:#fff;
+    --violet-color:#181e4b;
+    --blue-color:#4475f2;
+    --gray-color:#9A9EA6;
+    --header-height:120px;
+    --nav-height:60px;
+    --header-with-search-height:calc(var(--header-height) - var(--nav-height));
+}
+*{
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+    font-family: Overpass;
+    font-size: 62.5%;
+}

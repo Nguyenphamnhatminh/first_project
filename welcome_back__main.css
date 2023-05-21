@@ -1,0 +1,298 @@
+.header{
+    height: 50px;
+    background-color: var(--white-color);
+}
+.header__menu{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 20px 0 0 ;
+  
+}
+.header__menu-list{
+    display: flex;
+    list-style: none;
+    margin-bottom: 0;
+    padding: 0;
+    flex-direction: row;
+    align-items: flex-start;
+    
+}
+.header__menu-item{
+    width: 65px;
+    height: 28px;
+    font-family:'Nunito';
+    font-size: 1.4rem;
+    color: var(--black-color);  
+    text-align: right;
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+    
+
+}
+/* hover */
+.header__menu-item:hover{
+    color:var(--blue-color);
+}
+.header__menu-item,
+.header__menu-icon{
+    margin: 20px 24px;
+    line-height: 27px;
+}
+/* icon down */
+.header__menu-item i{
+    font-size: 1rem ;
+    width: 12px;
+    height: 12px;
+    left: 0.02px;
+    top: 7.03px;
+}
+/* icon house */
+.header__menu-icon i{
+    font-size: 1.4rem;
+    color: var(--black-color);
+}
+
+/* LOGIN */
+.header__login{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header__login-prologue{
+    padding: 10px 50px;
+    border-radius: 4px;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin-top: 0px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.header__login-name{
+   color: var(--black-color);
+    font-size: 2.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.6rem;
+}
+
+.header__login-signin{
+    margin-top: -5px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.header__login--not-hav,
+.header__login-signup{
+    color: #575e6a;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+.header__login-signup{
+    color: var(--blue-color);
+    top: -7px;
+    margin: 0 0 6px 6px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+/* img */
+.header__login-input-img{
+    width: 600px;
+    /* left: 79.2%;
+    right: 8.3%;
+    top: 80.34%;
+    bottom: 16.5%; */
+ 
+}
+
+
+/* login-input */
+.header__login-input-field{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;   
+    
+}
+
+.header__login-input-field--list{
+    list-style: none;
+    padding-left: 0;
+    display: block;
+
+}
+/* css cho chữ */
+.header__login-input-field-name{
+    color: var(--black-color);
+    font-size: 1.6rem;
+    
+}
+/* thẻ input */
+.header__login-input-field-input{
+    display: flex;
+    flex-direction: row;
+    width:370px;
+    height: 50px;
+    margin: 16px 0;
+    border: none;
+    
+}
+
+.header__login-input-field-frame{
+    width: 100%;
+    border: 2px solid var(--blue-color);
+    padding: 8px 22px;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    outline: none;
+    border-radius: 50px;
+    
+    
+}
+.header__login-input-field-frame:focus{
+    border-color: blue;
+
+}
+/* remember */
+.header__login-input-field--remember{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.header__login-input-field--remember-button{
+    display: flex;
+    align-items: center;
+}
+/* nút bấm tròn */
+.header__login-input-field--remember-input{
+    accent-color: var(--blue-color);
+}
+.header__login-input-field--remember-name{
+    font-size: 1.2rem;
+    color: #767b86;
+    margin-left: 10px;
+    font-weight: 500;
+
+}
+
+
+/* forgot password */
+
+.header__login-input-remember span{
+    font-size: 1.2rem;  
+    color:var(--violet-color);
+    font-weight: 500;
+    cursor: pointer;
+}
+/* hover */
+.header__login-input-remember span:hover{
+    color: blue;
+}
+/* nút bấm sign in */
+.header__login-input-button{
+    margin-top: 10px;
+    width:370px;
+    height: 34px;
+}
+
+.header__login-input-button-sign{
+    width: 100%;
+    height: 50px;
+    background-color: var(--blue-color);
+    border-radius: 70px;
+    box-shadow: 4px 8px 12px rgba(78, 99, 141, 0.06), inset 0px 4px 12px rgba(200, 211, 249, 0.6);
+    color: var(--white-color);
+    font-size: 1.4rem;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+/* hover */
+.header__login-input-button-sign:hover{
+    background-color: #5e5eb9;
+    color: var(--white-color);
+}
+/* or continue */
+.header__login-input-Social-title{
+  margin-top: 30px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9);
+  position: relative;
+    
+}
+.header__login-input-Social-span{
+    
+    color: #8c9099; 
+    font-size: 1.4rem;
+    padding: 5px;
+    background-color: var(--white-color);
+    z-index: 1;
+    position: absolute;
+    margin: 0 0 0 -16%;
+    top: -6px;
+
+
+}
+/* dấu gạch */
+.header__login-title--separate{
+    position: absolute; 
+    display: block;
+    border-bottom: 1px solid var(--violet-color);
+    height: 30px;
+    width: 78%;
+    margin:0 32px;
+    top: -18px;
+    z-index: 0;
+    
+}
+/* 3 nút fb , gg , apple */
+.header__login-input-Social-login{
+    position: absolute;
+    margin-top: 46px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 75%;
+}
+
+/* css icon  */
+.header__login-input-icon{
+    font-size: 2.8rem;
+}
+/* css icon gg */
+.header__login-input-google{
+    cursor: pointer;
+    color: linear-gradient(to right, #db4437, #f4b400, #0f9d58);
+}
+/* css icon fb */
+.header__login-input-facebook
+.header__login-input-icon{
+    color: var(--violet-color);
+}
+/* hover icon  */
+.header__login-input-google:hover{
+    background-color: #4f81ef;
+}
+.header__login-input-facebook:hover{
+    background-color: #d2d2d2;
+}
+.header__login-input-apple:hover{
+    background-color: #ccc;
+}
+/* hình ảnh */
+.header__login-input-img{
+   width: 600px;
+   height: 400px;
+   border-radius: 2px;
+   margin-top: 100px;
+   margin-right: 10px;
+   
+}
